@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: test
+---
+
+
+spring:
+  profiles: test
+  application:
+    name: config-test
+
+server:
+  port: 8801
+
+---
+spring:
+  profiles: prod
+  application:
+    name: config-prod
+
+server:
+  port: 8810
