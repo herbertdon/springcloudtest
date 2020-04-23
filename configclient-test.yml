@@ -13,7 +13,7 @@ server:
   port: 8801
 
 busi:
-  ops: N
+  ops: Y
 ---
 spring:
   profiles: prod
